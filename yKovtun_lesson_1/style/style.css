@@ -1,0 +1,145 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Lobster|Pangolin');
+
+body {
+	background-image: url(../img/background.jpg);
+}
+
+.content_page {
+	width: 500px;
+	height: 700px;
+	background: linear-gradient(to top, rgba(70, 86, 101, 0.9), rgba(111, 141, 165, 0.9));
+	border-radius: 10px;
+	margin-left: 100px;
+	padding-left: 20px;
+    margin-top: 100px;
+    padding-top: 20px;
+ }
+
+ .avatar {
+ 	width: 300px;
+ 	height: 300px;
+ 	border: 1px solid;
+ 	border-color: #000;
+ 	border-radius: 10px;
+ }
+
+ .name {
+ 	margin-top: 10px;
+ 	font-family: Lobster;
+ 	font-size: 52px;
+ }
+
+.description {
+	display:inline-flex;
+	margin-top: 15px;
+	font-family: Pangolin;
+	color: #FFF;
+	font-size: 18px;
+	align-items: center;
+}
+
+.ghLogo {
+	height: 32px;
+	padding-left: 5px;
+}
+
+.sLogo {
+	height: 64px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.links {
+	margin-top: 10px;
+	width: 230px;
+	height: 74px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 115px;
+}
+
+h2 {
+	margin-top: 15px;
+ 	font-family: Lobster;
+ 	font-size: 24px;
+}
+
+.play {
+	margin-top: 15px;
+	width: 480px;
+    height: 130px;
+	border-radius: 24px;
+	background-color: rgba(255, 255, 255, 0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.linkPlayGame {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	font-family: Pangolin;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: #FFF;
+	font-size: 35px;
+}
+a:hover {
+  font-weight: 600;
+}
+
+a.back {
+    margin-left: 30px;
+}
+
+.header {
+	display:inline-flex;
+}
+
+p {
+	font-family: Pangolin;
+}
+.playGame {
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	width: 465px;
+    height: 120px;
+	border-radius: 24px;
+	background-color: rgba(255, 255, 255, 0.3);
+
+}
+input {
+	width: 320px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #cecece;
+	background: rgba(246, 246, 246, 0.33);
+	border-radius: 8px;
+}
+
+hr {
+	width: 380px;
+}
+
+.bclick {
+	position: relative;  left: 50%;
+	margin-top: 10px;
+	background-color: #24303E; 
+	border: none; 
+	height: 25px; 
+	color: #FFF;
+}
+
+#out {
+	margin-top: 20px;
+	text-align: center;
+}
