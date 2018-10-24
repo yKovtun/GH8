@@ -1,0 +1,21 @@
+.a4 {
+	width: 700px;
+	margin:auto; 
+}
+
+.plane {
+	float: left;
+	padding: 10px 10px;
+}
+
+.alignment {
+	padding-top: 15px;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
